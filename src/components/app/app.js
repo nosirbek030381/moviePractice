@@ -26,7 +26,6 @@ const App = () => {
 						like: false,
 					};
 				});
-				setData(newArr);
 				dispatch({ type: 'GET_DATA', payload: newArr });
 			})
 			.catch(err => console.log(err))
